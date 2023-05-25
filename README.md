@@ -5,6 +5,11 @@
 npm install
 ```
 
+### use npm for blocks-tree lib
+```
+npm i vue3-blocks-tree
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
