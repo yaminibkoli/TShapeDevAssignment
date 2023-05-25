@@ -5,7 +5,7 @@
 npm install
 ```
 
-### use npm for blocks-tree lib
+### use npm for blocks-tree lib if facing any blocks-tree related error else skip
 ```
 npm i vue3-blocks-tree
 ```
