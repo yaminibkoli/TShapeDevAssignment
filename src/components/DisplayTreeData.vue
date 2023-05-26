@@ -7,7 +7,7 @@
                <label  v-if="selectedNode">  {{ selectedNode.label  }} 
                 <br>
                  {{  selectedNode.description  }}</label>
-                <button @click="NodecloseCliked" class="close-btn">X</button>
+                <button @click="nodeCloseClicked" class="close-btn">X</button>
             </div>
     </div>
     <div class="col-sm-6" style=" border-left: dashed 2px #007066; padding-left: 0px!important;">
@@ -68,7 +68,7 @@
             selectedNodeId = node.currentTarget;
         }
         //To close the node detail dialog-box
-        function NodecloseCliked()  {
+        function nodeCloseClicked()  {
             isNodeClose.value = !isNodeClose.value;
             selectedNodeId.style.backgroundColor = 'white';      
       }
@@ -80,7 +80,7 @@
             nodes,
             dataToBindTree,
             isNodeClose,
-            NodecloseCliked,
+            nodeCloseClicked,
             selectedNodeId,
             
         }
